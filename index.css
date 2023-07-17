@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.titleinfo{
+    display: flex;
+    padding: 10px;
+    border-bottom: lightgrey 2px solid;
+    
+}
+.applogo{
+    height: 80px;
+    margin: auto auto auto 20px;
+}
+.user{
+    height: 50px;
+    margin: auto 10px auto auto;
+    border-radius: 50%;
+    
+}
+.posttitle{
+    display: flex;
+    align-content: flex-start;
+    margin-top:30px;
+    margin-bottom: 10px;
+    
+}
+.postpic{
+    height: 50px;
+    margin: auto 0px auto 20px;
+    border-radius: 50%;
+
+}
+h1{
+    font-size: 16px;
+    padding-left: 20px;
+    
+}
+h2{
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight:400;
+}
+.artpic{
+    width: 100%;
+}
+.icons{
+    /* display: flex; */
+    justify-content: space-between;
+    margin: 10px 10px;
+    
+}
+.dm,.heart,.com{
+    width: 30px;
+}
+.likenum{
+    font-weight:800;
+    font-size: 12px;
+}
+.artistname{
+    font-weight:800;
+    font-size: 14px;
+}
+.text{
+    font-size: 14px;
+}
+.des{
+    margin: -10px 10px 50px  10px ;
+    
+}
